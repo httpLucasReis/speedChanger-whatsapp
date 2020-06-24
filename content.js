@@ -8,6 +8,7 @@ const interval = setInterval(() => {
 
     const button = document.createElement("button");
     button.textContent = "2x";
+    
     //Atribuindo uma classe ao butão
     button.classList.add("twoSpeedButton");
 
@@ -22,7 +23,4 @@ const interval = setInterval(() => {
     header.appendChild(button);
 
 }, 1000);
-
-
-
 

@@ -1,7 +1,13 @@
-.twoSpeedButton{
+.twoSpeedButton {
+
     color: gray;
     font-size : 1rem;
     font-weight: bold;
     background-color: transparent;
     border: none;
+    transition: color 400ms;
+}
+
+.twoSpeedButton:hover {
+    color: rgba(128, 128, 128, 0.575);
 }
